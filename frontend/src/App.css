@@ -1,0 +1,15 @@
+.tool {
+  width: 60%; /* Set content width to 60% on larger screens */
+  margin-left: auto; /* Auto margin on the left */
+  margin-right: auto; /* Auto margin on the right */
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+
+/* Mobile view (screens less than 768px wide) */
+@media (max-width: 768px) {
+  .tool {
+    width: 100%; /* Make the content full width on mobile */
+    padding: 20px; /* Apply padding on mobile view */
+  }
+}
