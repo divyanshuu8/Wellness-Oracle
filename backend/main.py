@@ -10,7 +10,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # Update to match your frontend origin
+    allow_origins=["https://wellness-oracle.netlify.app"],  # Update to match your frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
