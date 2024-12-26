@@ -29,7 +29,7 @@ const Product = () => {
 
     try {
       // Construct the URL with the user input
-      const url = `http://127.0.0.1:8000/getMatches?user_input=${encodeURIComponent(
+      const url = `https://wellness-oracle.onrender.com/getMatches?user_input=${encodeURIComponent(
         message
       )}`;
 
